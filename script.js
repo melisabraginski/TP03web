@@ -21,11 +21,11 @@ const nextButton = document.querySelector(".gallery-next");
 const galleryBadge = document.querySelector(".gallery-badge");
 
 const galleryItems = [
-  { src: "assets/gallery-main.jpg", alt: "Cumpleaños", label: "Cumpleaños" },
-  { src: "assets/gallery-1.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
-  { src: "assets/gallery-2.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
-  { src: "assets/gallery-3.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
-  { src: "assets/gallery-4.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
+  { src: "gallery-main.jpg", alt: "Cumpleaños", label: "Cumpleaños" },
+  { src: "gallery-1.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
+  { src: "gallery-2.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
+  { src: "gallery-3.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
+  { src: "gallery-4.jpg", alt: "Inspiraciones", label: "Inspiraciones" },
 ];
 
 let activeGalleryIndex = 0;
